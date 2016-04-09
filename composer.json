@@ -1,0 +1,32 @@
+{
+  "name": "justsoftware/js",
+  "description": "jsCMS PHP CMS",
+  "keywords": [
+    "cms",
+    "justsoftware"
+  ],
+  "authors": [
+    {
+      "name": "Alexander",
+      "email": "eolitich@gmail.com",
+      "role": "Founder and project lead"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6",
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "js\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
